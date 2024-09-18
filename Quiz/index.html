@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Media Quiz</title>
+    <link rel="stylesheet" href="../Quiz/style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Interactive Media Quiz</h1>
+        </header>
+        
+        <!-- Round 1 Quiz content -->
+        <main id="round1-content" class="quiz-round">
+            <!-- Question 1 -->
+            <section class="quiz-question" id="question1">
+                <h2>Question 1: Guess the Comedy Actor?</h2>
+                <audio controls>
+                    <source src="../image/koundamani_purse.mp3" type="audio/mp3">
+                </audio>
+                <div class="options">
+                    <button class="option">A. Goundamani</button>
+                    <button class="option">B. Senthil</button>
+                    <button class="option">C. Vadivel</button>
+                </div>
+                <p id="result"></p>
+            </section>
+            
+            <!-- Question 2 -->
+            <section class="quiz-question" id="question2">
+                <h2>Question 2: Guess the Song?</h2>
+                <audio controls>
+                    <source src="../image/Cute Friendship Song-Downringtone.com.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="options">
+                    <button class="option">A. Gala Gala</button>
+                    <button class="option">B. Nalla Nanban</button>
+                    <button class="option">C. Mustafaa Mustafaa</button>
+                </div>
+                <p id="result"></p>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" id="question3">
+                <h2>Question 3: Guess the Movie Name?</h2>
+                <audio controls>
+                    <source src="../image/vikram vedha bgm.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="options">
+                    <button class="option">A. Vettaiyadu Vizhaiyadu</button>
+                    <button class="option">B. Vikram Vedha</button>
+                    <button class="option">C. Vikram</button>
+                    <p id="result"></p>
+                </div>
+            </section>
+
+            <div class="quiz-navigation">
+                <button>Next</button>
+             </div>
+        </main>
+        <!-- Round 2 Quiz content -->
+        <main id="round2-content" class="quiz-round" style="display:none;">
+            <!-- Question 1 -->
+            <section class="quiz-question" id="question1">
+                <h2>Question 1: Guess the Movie</h2>
+                <video controls width="400">
+                    <source src="../image/Kamal Haasan's Gang in Hilarious Trouble 🤣 _ Panchathanthiram Comedy _ Tamil _ Simran _ Sun NXT.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="options">
+                    <button class="option">A. Vasool Raja MBBS</button>
+                    <button class="option">B. Avvai Shanmugi</button>
+                    <button class="option">C. Pancha Thandhiram</button>
+                </div>
+                <p id="result"></p>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" id="question2">
+                <h2> Question 2:Guess the Movie?</h2>
+                <video controls width="400">
+                    <source src="../image/Much needed break-up _ Vallavan _ Tamil _ Simbu _ Nayanthara _ Reema Sen _ SUN NXT.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="options">
+                    <button class="option">A. Kuthu</button>
+                    <button class="option">B. Vallavan</button>
+                    <button class="option">C. Kovil</button>
+                </div>
+                <p id="result"></p>
+            </section>
+
+           
+
+            <div class="quiz-navigation">
+                <button id="submitBtn">Submit</button>
+            </div>
+    </div>
+
+    <script src="../Quiz/script.js"></script>
+</body>
+</html>
